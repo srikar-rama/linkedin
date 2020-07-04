@@ -1,0 +1,87 @@
+.navbar{
+	display: block;
+	background-color: #283E4A;
+	height: 55px;
+}
+#linkedin {
+	padding-left: 100px;
+	margin-top: 10px;
+}
+.search{
+	width: 260px;
+	height: 30px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	font-size: 15px;
+	margin-top: 12px;
+}
+.img1{
+	border-bottom: 3px solid white;
+
+}
+.img:hover {
+	border-bottom: 3px solid white;
+}
+.main{
+	margin: 0 auto;
+	margin-top: 10px;
+    width: 550px;
+    height: 490px;
+    border: 0.5px solid rgb(186, 191, 187);
+}
+.profile{
+	margin-top: 20px;
+	margin-left: 20px;
+	width:50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.profile-info{
+	margin-top: 20px;
+	margin-left:10px;
+}
+.ash{
+	color:rgb(145, 142, 132); 
+}
+.margin{
+	margin-left: 20px;
+}
+.post{
+	margin-left: 20px;
+	width: 510px;
+	height: 300px;
+}
+.fa{
+	font-size: 30px;
+	margin: 0px 0px 0px 20px;
+	color: rgb(145, 142, 132); 
+
+}
+#share{
+	margin-top: 10px
+}
+@media screen and (max-width: 375px){
+	.main {
+		width: 100%;
+	}
+	
+	.post{
+		width: 300px;
+		height: 250px;
+	}
+	#linkedin{
+		margin-left: -40px;
+	}
+	.img{
+		display: none;
+	}
+	.img1{
+		display: none;
+	}
+	.search{
+		margin-right: 20px;
+	}
+	#dots{
+		display: none;
+	}
+}
